@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.6b68cc5c.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/ProgressBar.4f1e9ba5.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.0578f577.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.b13d9da5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.bce95a10.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.3de2ebce.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.60a4f113.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.23cc3b75.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.7d1e1a35.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ProgressBar.svelte_svelte_type_style_lang.b5fff68c.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.5b93cb17.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" data-theme="skeleton">
+		<div style="display: contents" class="h-full overflow-hidden">      <div id="appShell" class="w-full h-full flex flex-col overflow-hidden " data-testid="app-shell"> <header id="shell-header" class="flex-none z-10"> <div class="app-bar flex flex-col bg-surface-100-800-token  space-y-4 p-4  " data-testid="app-bar" role="toolbar" aria-label="" aria-labelledby=""> <div class="app-bar-row-main grid items-center grid-cols-[auto_1fr_auto] gap-4 "> <div class="app-bar-slot-lead flex-none flex justify-between items-center "><strong class="text-xl" data-svelte-h="svelte-1jh7hb7">vasUI</strong></div>  <div class="app-bar-slot-default flex-auto "></div>  <div class="app-bar-slot-trail flex-none flex items-center space-x-4 "><a class="btn btn-sm variant-ghost-surface" href="https://github.com/meisto/Virtual-Assistant-System" target="_blank" rel="noreferrer" data-svelte-h="svelte-1gai240">GitHub</a> </div></div>  </div> </header>  <div class="flex-auto w-full h-full flex overflow-hidden">   <div id="page" class=" flex-1 overflow-x-hidden flex flex-col" style="scrollbar-gutter: auto;">   <main id="page-content" class="flex-auto ">   <div class="container h-[90vh] mx-auto flex flex-col justify-center items-center gap-2 w-full"> <div id="prevmessages" class="flex flex-col gap-2 justify-start items-center w-full overflow-scroll grow px-4"> <div class="flex flex-row no-wrap gap-x-2 items-center [overflow-anchor:none] self-start"><div class="shrink-0">  <figure class="avatar flex aspect-square text-surface-50 font-semibold justify-center items-center overflow-hidden isolate bg-tertiary-500/50 w-8  rounded-full   " data-testid="avatar"><svg class="avatar-initials w-full h-full" viewBox="0 0 512 512"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-weight="bold" font-size="150" class="avatar-text fill-token">AI</text></svg></figure></div> <span class="max-w-prose text-left border rounded-xl p-2 border-tertiary-500/20">This is a messsage</span> </div> <div class="flex flex-row no-wrap gap-x-2 items-center [overflow-anchor:none] self-end"><span class="max-w-prose text-left border rounded-xl p-2 border-secondary-500/20">This is a response.</span> <div class="shrink-0">  <figure class="avatar flex aspect-square text-surface-50 font-semibold justify-center items-center overflow-hidden isolate bg-secondary-500/20 w-8  rounded-full   " data-testid="avatar"><svg class="avatar-initials w-full h-full" viewBox="0 0 512 512"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-weight="bold" font-size="150" class="avatar-text fill-token">TM</text></svg></figure></div> </div> <div class="flex flex-row no-wrap gap-x-2 items-center [overflow-anchor:none] self-start"><div class="shrink-0">  <figure class="avatar flex aspect-square text-surface-50 font-semibold justify-center items-center overflow-hidden isolate bg-tertiary-500/50 w-8  rounded-full   " data-testid="avatar"><svg class="avatar-initials w-full h-full" viewBox="0 0 512 512"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-weight="bold" font-size="150" class="avatar-text fill-token">AI</text></svg></figure></div> <span class="max-w-prose text-left border rounded-xl p-2 border-tertiary-500/20">This is a in x the store.</span> </div> <span id="scrollanchor" class="[overflow-anchor:auto] italic text-surface-600 text-sm" data-svelte-h="svelte-a5e1t4">Bottom</span></div>  <form class="w-full flex flex-row no-wrap gap-2 grow-0" id="submitmessageform"><input id="messagetextinput" name="content" class="input" type="text" placeholder="Your Message"> <button type="submit" class="btn-icon variant-ghost" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"></path></svg></button></form> <button data-svelte-h="svelte-1mmrvph">OPEN</button></div>   </main>  </div>  </div>  </div> 
+			
+			<script>
+				{
+					__sveltekit_121qsfq = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.0578f577.js"),
+						import("./_app/immutable/entry/app.60a4f113.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
