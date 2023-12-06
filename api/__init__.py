@@ -4,6 +4,7 @@
 # Description: -
 # ======================================================================
 from fastapi import APIRouter
+from fastapi.responses import RedirectResponse
 
 from api.calendar import router as calendar_router
 from api.messages import router as messages_router
@@ -14,6 +15,8 @@ router = APIRouter(prefix="/api")
 router.include_router(calendar_router)
 router.include_router(messages_router)
 router.include_router(chat_router)
+
+
 
 @router.get("/ping")
 def ping():
