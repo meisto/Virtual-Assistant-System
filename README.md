@@ -1,17 +1,16 @@
 # VAS⚡
 VAS is a direct interface to your local Large Language Model. It enables you to experiment with generative Artificial Intelligence with minimal setup without having to compromise your data by sending it to a remote server.  
 
-[Introduction](#introduction) | 
-[Installation](#installation) | 
-[Configuration](#configuration) | 
-[Features](#features)
+[Introduction](#introduction-⚙️ ) | 
+[Installation](#installation-⚙️) | 
+[Features](#features-💡)
 
-## Introduction 🎉
+## Introduction ⚙️ 
 **WIP**: This is a project of mine to explore the power of generative AI. As such it is not finished in any way. Please remember this when trying it out.  
 
 Welcome to the Virtual Assistant System (VAS)! VAS is a tool that enables interaction with your computer using natural language commands. You can ask it to perform various tasks, such as composing emails, generating documentation, and learning.🚀
 
-## Installation 🤝
+## Installation ⚙️
 To get started with the virtual assistant, follow these steps:
 
 1. Install the necessary packages by running `pip install -r requirements.txt` in your terminal.
